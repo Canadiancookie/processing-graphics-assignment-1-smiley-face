@@ -7,8 +7,8 @@
  */
 
 void setup() {
-  size(700, 500); // Size of canvas
-  background(100, 10, 100); // Background color as rgb values
+  size(700, 500); // size of canvas
+  background(100, 100, 100); // background color (rgb)
 }
 
 void draw() {

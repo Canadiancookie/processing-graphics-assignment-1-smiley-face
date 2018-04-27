@@ -13,6 +13,12 @@ void setup() {
 
 void draw() {
   rect(75, 75, 125, 80);
+  textSize(20);
+  text("Red fill", 75, 70);
   rect(290, 75, 125, 80);
+  textSize(17);
+  text("strokeWeight=4", 290, 70);
   rect(500, 75, 125, 80);
+  textSize(12);
+  text("strokeWeight=10 and fill=blue", 500, 70);
 }

@@ -33,16 +33,23 @@ void draw() {
   textSize(14);
   text("strokeWeight=10 and fill=blue", 472, 65);
   
-  //smiley face
+  //face
   fill(255, 255, 0);
   strokeWeight(3);
   ellipse(350, 330, 250, 250);
   
+  //eye (left)
   fill(255, 255, 255);
   strokeWeight(2);
   ellipse(300, 290, 50, 50);
   
+  //eye (right)
   fill(255, 255, 255);
   strokeWeight(2);
   ellipse(400, 290, 50, 50);
+  
+  //mouth
+  fill(255, 255, 255);
+  strokeWeight(2.5);
+  line(300, 390, 400, 390);
 }

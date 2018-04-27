@@ -37,4 +37,12 @@ void draw() {
   fill(255, 255, 0);
   strokeWeight(3);
   ellipse(350, 330, 250, 250);
+  
+  fill(255, 255, 255);
+  strokeWeight(2);
+  ellipse(300, 290, 50, 50);
+  
+  fill(255, 255, 255);
+  strokeWeight(2);
+  ellipse(400, 290, 50, 50);
 }
